@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container">
+        {/* Brand Name */}
         <div className="brand">JayQ St.Patrick</div>
+        {/* Navbar Items */}
         <ul className="nav-links">
           <li>
             <a href="#" className="text-white hover:text-gray-300">
@@ -33,6 +35,13 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
+        {/* Search Bar */}
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search" />
+            <button type="submit">Search</button>
+          </form>
+        </div>
       </div>
     </nav>
   );

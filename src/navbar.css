@@ -5,6 +5,58 @@
   top: 0;
   right: 0;
   left: 0;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  text-decoration: underline;
+}
+
+.search-container {
+  float: right;
+}
+
+.search-container input[type="text"] {
+  padding: 2px;
+  margin-top: 8px;
+  margin-right: 8px;
+  border: none;
+  font-size: 17px;
+}
+
+.search-container button {
+  padding: 2px;
+  margin-top: 8px;
+  margin-right: 8px;
+  background: #ddd;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+
+/* Clear floats after the navbar */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .container {
