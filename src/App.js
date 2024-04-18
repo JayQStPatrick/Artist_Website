@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>;
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Footer />
     </div>
   );
 }
