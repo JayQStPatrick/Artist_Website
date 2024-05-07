@@ -4,10 +4,13 @@ import ChrisBrown from "../media/ChrisBrown.png";
 import Pac from "../media/Pac.png";
 import SantanDave from "../media/SantanDave.png";
 import SnoopDogg from "../media/SnoopDogg.png";
-import Meek from "../media/meek.png";
-const News_tab = () => {
+import Second from "../media/storage_two.jpg";
+
+// Creating usestates
+const Merch_tab = () => {
   const [hasBackground, setHasBackground] = useState(false);
 
+  // Using the usestate to determine the background of navbar while scrolling
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
@@ -29,11 +32,12 @@ const News_tab = () => {
       <Navbar hasBackground={hasBackground} />
       <div className="">
         <img
-          src={Meek}
+          src={Second}
           alt="landing"
           className="bg-cover bg-center bg-repeat-x w-full"
         />
       </div>
+      {/* Merch first row */}
       <div className="flex flex-row p-8 bg-neutral-600">
         <div class="p-8 m-8 max-w-sm rounded overflow-hidden shadow-lg">
           <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
@@ -90,6 +94,7 @@ const News_tab = () => {
           </div>
         </div>
       </div>
+      {/* Merch second row */}
       <div className="flex flex-row p-8 bg-neutral-600">
         <div class="p-8 m-8 max-w-sm rounded overflow-hidden shadow-lg">
           <img class="w-full" src={SnoopDogg} alt="HipHop Artist" />
@@ -150,4 +155,4 @@ const News_tab = () => {
   );
 };
 
-export default News_tab;
+export default Merch_tab;

@@ -1,8 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "../navbar.css";
 import { FaMagnifyingGlass } from "react-icons/fa6";
+import Catalogue from "../components/catalogue_tab";
+import Events from "../components/events_tab";
+import Merch from "../components/merch_tab";
+import News from "../components/news_tab";
+import Videos from "../components/videos_tab";
 
 const Navbar = ({ hasBackground }) => {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
   return (
     <nav
       style={{
@@ -11,36 +20,65 @@ const Navbar = ({ hasBackground }) => {
         width: "100%",
         zIndex: 100,
       }}
-      className="container"
+      className="container h-1/6 px-8"
     >
       {/* Brand Name */}
       <div className="brand">JayQ St.Patrick</div>
       {/* Navbar Items */}
       <ul className="nav-links">
+        {/* Add onClick event to trigger navigation */}
         <li>
-          <a href="#" className="text-white hover:text-gray-300">
+          <NavLink
+            exact
+            to="/"
+            activeClassName="active"
+            onClick={handleClick}
+            className="text-white hover:text-gray-300 nav-links"
+          >
             News
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a href="#" className="text-white hover:text-gray-300">
+          <NavLink
+            exact
+            to="/catalogue_tab"
+            activeClassName="active"
+            onClick={handleClick}
+            className="text-white hover:text-gray-300 nav-links"
+          >
             Catalogue
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a href="#" className="text-white hover:text-gray-300">
+          <NavLink
+            exact
+            to="/videos_tab"
+            activeClassName="active"
+            onClick={handleClick}
+            className="text-white hover:text-gray-300 nav-links"
+          >
             Videos
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a href="#" className="text-white hover:text-gray-300">
+          <NavLink
+            to="/events_tab"
+            activeClassName="active"
+            onClick={handleClick}
+            className="text-white hover:text-gray-300 nav-links"
+          >
             Events
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a href="#" className="text-white hover:text-gray-300">
+          <NavLink
+            to="/merch_tab"
+            activeClassName="active"
+            onClick={handleClick}
+            className="text-white hover:text-gray-300 nav-links"
+          >
             Merch
-          </a>
+          </NavLink>
         </li>
       </ul>
       {/* Search Bar */}
