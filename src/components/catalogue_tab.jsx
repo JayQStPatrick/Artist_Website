@@ -38,8 +38,8 @@ const Catalogue_tab = () => {
         />
       </div>
       {/* Catalogue first row */}
-      <div className="flex flex-row p-8 bg-neutral-600">
-        <div class="p-8 m-8 max-w-sm rounded overflow-hidden shadow-lg">
+      <div className="flex flex-row bg-neutral-600">
+        <div class="p-8 m-8 w-2/5 rounded overflow-hidden shadow-lg mx-auto">
           <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center font-serif">
@@ -57,8 +57,10 @@ const Catalogue_tab = () => {
             </button>
           </div>
         </div>
-        <div class="p-8 m-8 max-w-sm rounded overflow-hidden shadow-lg">
-          <img class="w-full" src={Pac} alt="HipHop Artist" />
+        <div class=" m-8  rounded overflow-hidden shadow-lg flex flex-row w-2/5 mx-auto h-3/5">
+          <div className="p-0">
+            <img class="w-full" src={Pac} alt="HipHop Artist" />
+          </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
               The Coldest Sunset
@@ -68,29 +70,11 @@ const Catalogue_tab = () => {
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
-          </div>
-          <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-black p-4 text-white text-lg w-3/4 rounded-2xl">
-              PLAY
-            </button>
-          </div>
-        </div>
-        <div class="p-8 m-8 max-w-sm rounded overflow-hidden shadow-lg">
-          <img class="w-full" src={SantanDave} alt="HipHop Artist" />
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 text-center">
-              The Coldest Sunset
+            <div class="px-6 pt-4 pb-2 text-center">
+              <button className="bg-black p-4 text-white text-lg w-3/4 rounded-2xl">
+                PLAY
+              </button>
             </div>
-            <p class="text-gray-700 text-base text-center">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
-            </p>
-          </div>
-          <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-black p-4 text-white text-lg w-3/4 rounded-2xl">
-              PLAY
-            </button>
           </div>
         </div>
       </div>
