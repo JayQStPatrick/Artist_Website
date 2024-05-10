@@ -39,39 +39,41 @@ const Catalogue_tab = () => {
       </div>
       {/* Catalogue first row */}
       <div className="flex flex-row bg-neutral-600">
-        <div class="p-8 m-8 w-2/5 rounded overflow-hidden shadow-lg mx-auto">
-          <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 text-center font-serif">
+        <div class=" m-8  rounded overflow-hidden shadow-lg flex flex-row w-2/5 mx-auto h-3/5">
+          <div className="w-1/2 p-6">
+            <img class="w-full" src={Pac} alt="HipHop Artist" />
+          </div>
+          <div class="w-1/2">
+            <div class="font-bold text-xl p-4 text-center h-1/6">
               The Coldest Sunset
             </div>
-            <p class="text-gray-700 text-base text-center">
+            <p class="text-gray-700 text-base text-center p-4 h-1/2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
-          </div>
-          <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-black p-4 text-white text-lg w-3/4 rounded-2xl">
-              PLAY
-            </button>
+            <div class="text-center h-1/5">
+              <button className="bg-black text-white text-lg w-1/3 rounded-2xl mt-4">
+                PLAY
+              </button>
+            </div>
           </div>
         </div>
         <div class=" m-8  rounded overflow-hidden shadow-lg flex flex-row w-2/5 mx-auto h-3/5">
-          <div className="p-0">
+          <div className="w-1/2 p-6">
             <img class="w-full" src={Pac} alt="HipHop Artist" />
           </div>
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 text-center">
+          <div class="w-1/2">
+            <div class="font-bold text-xl p-4 text-center h-1/6">
               The Coldest Sunset
             </div>
-            <p class="text-gray-700 text-base text-center">
+            <p class="text-gray-700 text-base text-center p-4 h-1/2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
-            <div class="px-6 pt-4 pb-2 text-center">
-              <button className="bg-black p-4 text-white text-lg w-3/4 rounded-2xl">
+            <div class="text-center h-1/5">
+              <button className="bg-black text-white text-lg w-1/3 rounded-2xl mt-4">
                 PLAY
               </button>
             </div>
@@ -80,58 +82,130 @@ const Catalogue_tab = () => {
       </div>
       {/* Catalogue second row */}
       <div className="flex flex-row p-8 bg-neutral-600">
-        <div class="p-8 m-8 max-w-sm rounded overflow-hidden shadow-lg">
-          <img class="w-full" src={SnoopDogg} alt="HipHop Artist" />
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 text-center">
+        <div class=" m-8  rounded overflow-hidden shadow-lg flex flex-row w-2/5 mx-auto h-3/5">
+          <div className="w-1/2 p-6">
+            <img class="w-full" src={Pac} alt="HipHop Artist" />
+          </div>
+          <div class="w-1/2">
+            <div class="font-bold text-xl p-4 text-center h-1/6">
               The Coldest Sunset
             </div>
-            <p class="text-gray-700 text-base text-center">
+            <p class="text-gray-700 text-base text-center p-4 h-1/2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
-          </div>
-          <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-black p-4 text-white text-lg w-3/4 rounded-2xl">
-              PLAY
-            </button>
+            <div class="text-center h-1/5">
+              <button className="bg-black text-white text-lg w-1/3 rounded-2xl mt-4">
+                PLAY
+              </button>
+            </div>
           </div>
         </div>
-        <div class="p-8 m-8 max-w-sm rounded overflow-hidden shadow-lg">
-          <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 text-center">
+        <div class=" m-8  rounded overflow-hidden shadow-lg flex flex-row w-2/5 mx-auto h-3/5">
+          <div className="w-1/2 p-6">
+            <img class="w-full" src={Pac} alt="HipHop Artist" />
+          </div>
+          <div class="w-1/2">
+            <div class="font-bold text-xl p-4 text-center h-1/6">
               The Coldest Sunset
             </div>
-            <p class="text-gray-700 text-base text-center">
+            <p class="text-gray-700 text-base text-center p-4 h-1/2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
-          </div>
-          <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-black p-4 text-white text-lg w-3/4 rounded-2xl">
-              PLAY
-            </button>
+            <div class="text-center h-1/5">
+              <button className="bg-black text-white text-lg w-1/3 rounded-2xl mt-4">
+                PLAY
+              </button>
+            </div>
           </div>
         </div>
-        <div class="p-8 m-8 max-w-sm rounded overflow-hidden shadow-lg">
-          <img class="w-full" src={Pac} alt="HipHop Artist" />
-          <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 text-center">
+      </div>
+      {/* Catalogue third row */}
+      <div className="flex flex-row p-8 bg-neutral-600">
+        <div class=" m-8  rounded overflow-hidden shadow-lg flex flex-row w-2/5 mx-auto h-3/5">
+          <div className="w-1/2 p-6">
+            <img class="w-full" src={Pac} alt="HipHop Artist" />
+          </div>
+          <div class="w-1/2">
+            <div class="font-bold text-xl p-4 text-center h-1/6">
               The Coldest Sunset
             </div>
-            <p class="text-gray-700 text-base text-center">
+            <p class="text-gray-700 text-base text-center p-4 h-1/2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
+            <div class="text-center h-1/5">
+              <button className="bg-black text-white text-lg w-1/3 rounded-2xl mt-4">
+                PLAY
+              </button>
+            </div>
           </div>
-          <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-black p-4 text-white text-lg w-3/4 rounded-2xl">
-              PLAY
-            </button>
+        </div>
+        <div class=" m-8  rounded overflow-hidden shadow-lg flex flex-row w-2/5 mx-auto h-3/5">
+          <div className="w-1/2 p-6">
+            <img class="w-full" src={Pac} alt="HipHop Artist" />
+          </div>
+          <div class="w-1/2">
+            <div class="font-bold text-xl p-4 text-center h-1/6">
+              The Coldest Sunset
+            </div>
+            <p class="text-gray-700 text-base text-center p-4 h-1/2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+            <div class="text-center h-1/5">
+              <button className="bg-black text-white text-lg w-1/3 rounded-2xl mt-4">
+                PLAY
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Catalogue fourth row */}
+      <div className="flex flex-row p-8 bg-neutral-600">
+        <div class=" m-8  rounded overflow-hidden shadow-lg flex flex-row w-2/5 mx-auto h-3/5">
+          <div className="w-1/2 p-6">
+            <img class="w-full" src={Pac} alt="HipHop Artist" />
+          </div>
+          <div class="w-1/2">
+            <div class="font-bold text-xl p-4 text-center h-1/6">
+              The Coldest Sunset
+            </div>
+            <p class="text-gray-700 text-base text-center p-4 h-1/2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+            <div class="text-center h-1/5">
+              <button className="bg-black text-white text-lg w-1/3 rounded-2xl mt-4">
+                PLAY
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class=" m-8  rounded overflow-hidden shadow-lg flex flex-row w-2/5 mx-auto h-3/5">
+          <div className="w-1/2 p-6">
+            <img class="w-full" src={Pac} alt="HipHop Artist" />
+          </div>
+          <div class="w-1/2">
+            <div class="font-bold text-xl p-4 text-center h-1/6">
+              The Coldest Sunset
+            </div>
+            <p class="text-gray-700 text-base text-center p-4 h-1/2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+            <div class="text-center h-1/5">
+              <button className="bg-black text-white text-lg w-1/3 rounded-2xl mt-4">
+                PLAY
+              </button>
+            </div>
           </div>
         </div>
       </div>
