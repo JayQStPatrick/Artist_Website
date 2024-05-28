@@ -9,16 +9,16 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="text-2xl bg-black">
-      <div className="p-4 text-white">
-        <nav className="flex flex-row pl-4 text-white">
-          <ul className="flex flex-row w-1/2 space-x-8 text-xl text-white">
+    <footer className="text-2xl bg-solidblack">
+      <div className=" md:p-4 text-white">
+        <nav className="flex flex-col md:pl-4 text-white">
+          <ul className="flex flex-row w-4/6 mx-auto space-x-8 text-sm text-white text-center">
             <li className="">
               <a href="#" className="text-white">
                 About
               </a>
             </li>
-            <li className="mr-4">
+            <li className="">
               <a href="#" className="">
                 Subscribe
               </a>
@@ -29,8 +29,8 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <div className="w-1/2 ">
-            <div className="flex flex-row float-right w-2/4 pr-0 space-x-8">
+          <div className="">
+            <div className="flex flex-row w-4/5 mx-auto space-x-8">
               <FaFacebook />
               <FaInstagram />
               <FaYoutube />
@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
           </div>
         </nav>
-        <p className="text-xs text-center">
+        <p className="text-sm text-center">
           &copy; {new Date().getFullYear()} John Qurix Web. All Rights Reserved.
         </p>
       </div>

@@ -33,7 +33,7 @@ const Navbar = ({ hasBackground }) => {
             to="/"
             activeClassName="active"
             onClick={handleClick}
-            className="text-white hover:text-gray-300 nav-links"
+            className="text-solidwhite hover:text-grey nav-links"
           >
             News
           </NavLink>
@@ -44,7 +44,7 @@ const Navbar = ({ hasBackground }) => {
             to="/catalogue_tab"
             activeClassName="active"
             onClick={handleClick}
-            className="text-white hover:text-gray-300 nav-links"
+            className="text-solidwhite hover:text-grey nav-links"
           >
             Catalogue
           </NavLink>
@@ -55,7 +55,7 @@ const Navbar = ({ hasBackground }) => {
             to="/videos_tab"
             activeClassName="active"
             onClick={handleClick}
-            className="text-white hover:text-gray-300 nav-links"
+            className="text-solidwhite hover:text-grey nav-links"
           >
             Videos
           </NavLink>
@@ -65,7 +65,7 @@ const Navbar = ({ hasBackground }) => {
             to="/events_tab"
             activeClassName="active"
             onClick={handleClick}
-            className="text-white hover:text-gray-300 nav-links"
+            className="text-solidwhite hover:text-grey nav-links"
           >
             Events
           </NavLink>
@@ -75,7 +75,7 @@ const Navbar = ({ hasBackground }) => {
             to="/merch_tab"
             activeClassName="active"
             onClick={handleClick}
-            className="text-white hover:text-gray-300 nav-links"
+            className="text-solidwhite hover:text-grey nav-links"
           >
             Merch
           </NavLink>

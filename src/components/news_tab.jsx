@@ -38,7 +38,7 @@ const News_tab = () => {
         />
       </div>
       {/* News first row */}
-      <div className="flex flex-row p-8 bg-neutral-600">
+      <div className="md:flex md:flex-row md:p-8 md:bg-neutral-600">
         <div class="p-8 m-8 max-w-sm rounded overflow-hidden shadow-lg">
           <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
           <div class="px-6 py-4">
@@ -52,7 +52,7 @@ const News_tab = () => {
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-black p-4 text-white text-lg w-3/4 rounded-2xl">
+            <button className="bg-navyblue hover:bg-hoverblue p-4 text-white text-lg w-3/4 rounded-2xl">
               PLAY
             </button>
           </div>
@@ -70,7 +70,7 @@ const News_tab = () => {
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-black p-4 text-white text-lg w-3/4 rounded-2xl">
+            <button className="bg-navyblue hover:bg-hoverblue p-4 text-white text-lg w-3/4 rounded-2xl">
               PLAY
             </button>
           </div>
@@ -88,14 +88,14 @@ const News_tab = () => {
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-black p-4 text-white text-lg w-3/4 rounded-2xl">
+            <button className="bg-navyblue hover:bg-hoverblue p-4 text-white text-lg w-3/4 rounded-2xl">
               PLAY
             </button>
           </div>
         </div>
       </div>
       {/* News second row */}
-      <div className="flex flex-row p-8 bg-neutral-600">
+      <div className="md:flex md:flex-row md:p-8 md:bg-neutral-600">
         <div class="p-8 m-8 max-w-sm rounded overflow-hidden shadow-lg">
           <img class="w-full" src={SnoopDogg} alt="HipHop Artist" />
           <div class="px-6 py-4">
@@ -109,7 +109,7 @@ const News_tab = () => {
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-black p-4 text-white text-lg w-3/4 rounded-2xl">
+            <button className="bg-navyblue hover:bg-hoverblue p-4 text-white text-lg w-3/4 rounded-2xl">
               PLAY
             </button>
           </div>
@@ -127,7 +127,7 @@ const News_tab = () => {
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-black p-4 text-white text-lg w-3/4 rounded-2xl">
+            <button className="bg-navyblue hover:bg-hoverblue p-4 text-white text-lg w-3/4 rounded-2xl">
               PLAY
             </button>
           </div>
@@ -145,7 +145,7 @@ const News_tab = () => {
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-black p-4 text-white text-lg w-3/4 rounded-2xl">
+            <button className="bg-navyblue hover:bg-hoverblue p-4 text-white text-lg w-3/4 rounded-2xl">
               PLAY
             </button>
           </div>

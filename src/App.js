@@ -12,7 +12,7 @@ import Footer from "./components/footer";
 function App() {
   return (
     <>
-      <Router>
+      <Router className="w-1/4">
         <Routes>
           <Route path="/" element={<News />} />
           <Route path="/catalogue_tab" element={<Catalogue />} />
