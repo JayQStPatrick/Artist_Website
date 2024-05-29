@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="text-2xl bg-solidblack">
       <div className=" md:p-4 text-white">
         <nav className="flex flex-col md:pl-4 text-white">
-          <ul className="flex flex-row w-4/6 mx-auto space-x-8 text-sm text-white text-center">
+          <ul className="flex flex-row w-4/6 mx-auto space-x-8 text-lg text-white justify-center">
             <li className="">
               <a href="#" className="text-white">
                 About
@@ -30,7 +30,7 @@ const Footer = () => {
             </li>
           </ul>
           <div className="">
-            <div className="flex flex-row w-4/5 mx-auto space-x-8">
+            <div className="flex flex-row w-4/5 mx-auto space-x-8 justify-center">
               <FaFacebook />
               <FaInstagram />
               <FaYoutube />
@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
           </div>
         </nav>
-        <p className="text-sm text-center">
+        <p className="text-base text-center">
           &copy; {new Date().getFullYear()} John Qurix Web. All Rights Reserved.
         </p>
       </div>
