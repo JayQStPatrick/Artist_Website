@@ -39,7 +39,7 @@ const Videos_tab = () => {
       </div>
       {/* Videos first row */}
       <div className="flex flex-col bg-neutral-600 md:flex-row grid md:grid-cols-3 md:gap-4">
-        <div class="relative p-8 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white">
+        <div class="relative p-8 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
           <img class="w-full" src={Pac} alt="HipHop Artist" />
           <div class="overlay absolute inset-0 flex items-center justify-center opacity-100 transition duration-300 mt-[-80px] md:mt-[-100px]">
             <FaChevronRight className="text-hoverblue text-7xl md:text-8xl" />

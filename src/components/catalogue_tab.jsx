@@ -38,8 +38,8 @@ const Catalogue_tab = () => {
         />
       </div>
       {/* Catalogue first row */}
-      <div className="">
-        <div class="p-10">
+      <div className="flex flex-col bg-neutral-600">
+        <div class="mx-auto w-1/2 md:flex md:flex-col md:w-1/5 lg:w-1/3 rounded overflow-hidden shadow-lg">
           <div className="">
             <img class="w-full" src={Pac} alt="HipHop Artist" />
           </div>
@@ -52,14 +52,14 @@ const Catalogue_tab = () => {
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
-            <div class="text-center py-2">
+            <div class="text-center">
               <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
                 PLAY
               </button>
             </div>
           </div>
         </div>
-        <div class="p-10">
+        <div class="mx-auto w-1/2 md:flex-col md:w-1/5 lg:w-1/3 rounded overflow-hidden shadow-lg">
           <div className="">
             <img class="w-full" src={Pac} alt="HipHop Artist" />
           </div>
