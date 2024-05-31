@@ -167,12 +167,12 @@ const Catalogue_tab = () => {
         </div>
       </div>
       {/* Catalogue fourth row */}
-      <div className="">
-        <div class="p-10">
-          <div className="">
+      <div className="lg:p-5">
+        <div class="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left lg:w-2/5">
+          <div className="md:w-1/2 md:p-3">
             <img class="w-full" src={Pac} alt="HipHop Artist" />
           </div>
-          <div class="">
+          <div class="md:w-3/4 md:p-3">
             <div class="font-bold text-xl p-4 text-center">
               The Coldest Sunset
             </div>
@@ -188,11 +188,11 @@ const Catalogue_tab = () => {
             </div>
           </div>
         </div>
-        <div class="p-10">
-          <div className="">
+        <div class="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-right lg:w-2/5">
+          <div className="md:w-1/2 md:p-3">
             <img class="w-full" src={Pac} alt="HipHop Artist" />
           </div>
-          <div class="">
+          <div class="md:w-3/4 md:p-3">
             <div class="font-bold text-xl p-4 text-center">
               The Coldest Sunset
             </div>
