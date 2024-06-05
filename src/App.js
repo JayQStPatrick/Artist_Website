@@ -21,7 +21,7 @@ function App() {
           <Route path="/merch_tab" element={<Merch />} />
         </Routes>
       </Router>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
