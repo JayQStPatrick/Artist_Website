@@ -39,7 +39,7 @@ const News_tab = () => {
       </div>
       {/* News first row */}
       <div className="flex flex-col bg-neutral-600 md:flex-row md:p-6 md:grid-cols-3 md:gap-4">
-        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg">
+        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-grey bg-hoverblue">
           <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center font-serif">
