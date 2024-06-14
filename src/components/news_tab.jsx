@@ -5,6 +5,7 @@ import Pac from "../media/Pac.png";
 import SantanDave from "../media/SantanDave.png";
 import SnoopDogg from "../media/SnoopDogg.png";
 import Meek from "../media/meek.png";
+import Subscribe from "./subscribe/subscribe";
 
 // Creating usestates
 const News_tab = () => {
@@ -151,6 +152,7 @@ const News_tab = () => {
           </div>
         </div>
       </div>
+      {/* <Subscribe /> */}
     </div>
   );
 };

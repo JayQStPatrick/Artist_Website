@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "../navbar.css";
+// import { FaBars, FaTimes, FaMagnifyingGlass } from "react-icons/fa";
 import { FaMagnifyingGlass } from "react-icons/fa6";
+import { FaBars } from "react-icons/fa6";
+import { FaTimes } from "react-icons/fa";
+import "../navbar.css";
 import Catalogue from "../components/catalogue_tab";
 import Events from "../components/events_tab";
 import Merch from "../components/merch_tab";
@@ -12,6 +15,8 @@ const Navbar = ({ hasBackground }) => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
   return (
     <nav
       style={{
@@ -24,16 +29,19 @@ const Navbar = ({ hasBackground }) => {
     >
       {/* Brand Name */}
       <div className="brand">JayQ St.Patrick</div>
+      {/* Menu Icon */}
+      <div className="menu-icon" onClick={handleClick}>
+        {click ? <FaTimes /> : <FaBars />}
+      </div>
       {/* Navbar Items */}
-      <ul className="nav-links">
-        {/* Add onClick event to trigger navigation */}
+      <ul className={click ? "nav-links active" : "nav-links"}>
         <li>
           <NavLink
             exact
             to="/"
             activeClassName="active"
-            onClick={handleClick}
-            className="text-solidwhite hover:text-grey nav-links"
+            onClick={closeMobileMenu}
+            className="text-solidwhite hover:text-grey nav-link"
           >
             News
           </NavLink>
@@ -43,8 +51,8 @@ const Navbar = ({ hasBackground }) => {
             exact
             to="/catalogue_tab"
             activeClassName="active"
-            onClick={handleClick}
-            className="text-solidwhite hover:text-grey nav-links"
+            onClick={closeMobileMenu}
+            className="text-solidwhite hover:text-grey nav-link"
           >
             Catalogue
           </NavLink>
@@ -54,8 +62,8 @@ const Navbar = ({ hasBackground }) => {
             exact
             to="/videos_tab"
             activeClassName="active"
-            onClick={handleClick}
-            className="text-solidwhite hover:text-grey nav-links"
+            onClick={closeMobileMenu}
+            className="text-solidwhite hover:text-grey nav-link"
           >
             Videos
           </NavLink>
@@ -64,8 +72,8 @@ const Navbar = ({ hasBackground }) => {
           <NavLink
             to="/events_tab"
             activeClassName="active"
-            onClick={handleClick}
-            className="text-solidwhite hover:text-grey nav-links"
+            onClick={closeMobileMenu}
+            className="text-solidwhite hover:text-grey nav-link"
           >
             Events
           </NavLink>
@@ -74,15 +82,15 @@ const Navbar = ({ hasBackground }) => {
           <NavLink
             to="/merch_tab"
             activeClassName="active"
-            onClick={handleClick}
-            className="text-solidwhite hover:text-grey nav-links"
+            onClick={closeMobileMenu}
+            className="text-solidwhite hover:text-grey nav-link"
           >
             Merch
           </NavLink>
         </li>
       </ul>
       {/* Search Bar */}
-      <div class="search-container">
+      <div className="search-container">
         <form action="/action_page.php">
           <input
             type="text"

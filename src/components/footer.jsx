@@ -1,7 +1,7 @@
 // src/components/footer/Footer.js
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Subscribe from "./subscribe/subscribe";
 import {
   FaFacebook,
@@ -15,60 +15,100 @@ const Footer = () => {
   const [hit, setHit] = useState(false);
   const handleClick = () => setHit(!hit);
 
+  // Disable scrolling when the overlay is shown
+  useEffect(() => {
+    if (hit) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    // Cleanup function to reset the overflow style
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [hit]);
+
+  // Handle clicking outside the subscribe component to close it
+  const handleOverlayClick = (e) => {
+    if (e.target.id === "subscribe-overlay") {
+      setHit(false);
+    }
+  };
+
   return (
-    <footer className="text-2xl bg-solidblack">
-      <div className="md:p-4 text-white">
-        <nav className="flex flex-col md:pl-2 md:flex-row text-white">
-          <ul className="flex flex-row w-4/6 mx-auto space-x-8 text-lg text-white justify-center md:space-x-4 md:justify-normal md:text-2xl">
-            <li>
-              <NavLink
-                exact
-                to="/"
-                activeClassName="active"
-                onClick={handleClick}
-                className="text-white"
-              >
-                About
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                exact
-                to="/subscribe"
-                activeClassName="active"
-                onClick={handleClick}
-                className="text-white"
-              >
-                Subscribe
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                exact
-                to="/"
-                activeClassName="active"
-                onClick={handleClick}
-                className="text-white"
-              >
-                Contact
-              </NavLink>
-            </li>
-          </ul>
-          <div>
-            <div className="flex flex-row w-4/5 mx-auto space-x-8 justify-center md:text-4xl">
-              <FaFacebook />
-              <FaInstagram />
-              <FaYoutube />
-              <FaEnvelope />
-              <FaXTwitter />
+    <>
+      <footer className="text-2xl bg-solidblack">
+        <div className="md:p-4 text-white">
+          <nav className="flex flex-col md:pl-2 md:flex-row text-white">
+            <ul className="flex flex-row w-4/6 mx-auto space-x-8 text-lg text-white justify-center md:space-x-4 md:justify-normal md:text-2xl">
+              <li>
+                <NavLink
+                  exact
+                  to="/"
+                  activeClassName="active"
+                  onClick={handleClick}
+                  className="text-white"
+                >
+                  About
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  exact
+                  activeClassName="active"
+                  onClick={handleClick}
+                  className="text-white"
+                >
+                  Subscribe
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  exact
+                  to="/"
+                  activeClassName="active"
+                  onClick={handleClick}
+                  className="text-white"
+                >
+                  Contact
+                </NavLink>
+              </li>
+            </ul>
+            <div>
+              <div className="flex flex-row w-4/5 mx-auto space-x-8 justify-center md:text-4xl">
+                <FaFacebook />
+                <FaInstagram />
+                <FaYoutube />
+                <FaEnvelope />
+                <FaXTwitter />
+              </div>
             </div>
+          </nav>
+          <p className="text-base text-center">
+            &copy; {new Date().getFullYear()} John Qurix Web. All Rights
+            Reserved.
+          </p>
+        </div>
+      </footer>
+      {hit && (
+        <div
+          id="subscribe-overlay"
+          className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+          onClick={handleOverlayClick}
+        >
+          <div className="bg-white p-4 rounded shadow-lg relative">
+            <button
+              className="absolute top-1 right-1 text-4xl text-thickred rounded-lg"
+              onClick={handleClick}
+            >
+              &times;
+            </button>
+            <Subscribe />
           </div>
-        </nav>
-        <p className="text-base text-center">
-          &copy; {new Date().getFullYear()} John Qurix Web. All Rights Reserved.
-        </p>
-      </div>
-    </footer>
+        </div>
+      )}
+    </>
   );
 };
 
