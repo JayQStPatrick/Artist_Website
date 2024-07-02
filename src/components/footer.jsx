@@ -45,9 +45,8 @@ const Footer = () => {
               <li>
                 <NavLink
                   exact
-                  to="/"
                   activeClassName="active"
-                  onClick={handleClick}
+                  to="/about"
                   className="text-white"
                 >
                   About
@@ -66,9 +65,8 @@ const Footer = () => {
               <li>
                 <NavLink
                   exact
-                  to="/"
                   activeClassName="active"
-                  onClick={handleClick}
+                  to="/contact"
                   className="text-white"
                 >
                   Contact
