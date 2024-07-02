@@ -75,11 +75,37 @@ const Footer = () => {
             </ul>
             <div>
               <div className="flex flex-row w-4/5 mx-auto space-x-8 justify-center md:text-4xl">
-                <FaFacebook />
-                <FaInstagram />
-                <FaYoutube />
-                <FaEnvelope />
-                <FaXTwitter />
+                <a
+                  href="https://www.facebook.com/profile.php?id=100009407049622&mibextid=ZbWKwL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaFacebook />
+                </a>
+                <a
+                  href="https://www.instagram.com/jayq_gram?igsh=MXpyanZqemN1eTY="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram />
+                </a>
+                <a
+                  href="https://www.youtube.com/@JayQSt.Patrick"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaYoutube />
+                </a>
+                <a href="mailto:hearmeoutjayq@gmail.com">
+                  <FaEnvelope />
+                </a>
+                <a
+                  href="https://x.com/JayQ_Tweet?t=Sqxiezedgu7oJWMZpPAl4A&s=09"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaXTwitter />
+                </a>
               </div>
             </div>
           </nav>
