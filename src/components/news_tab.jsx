@@ -39,114 +39,114 @@ const News_tab = () => {
         />
       </div>
       {/* News first row */}
-      <div className="flex flex-col bg-neutral-600 md:flex-row md:p-6 md:grid-cols-3 md:gap-4">
-        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-grey">
+      <div className="flex flex-col md:flex-row md:p-6 md:grid-cols-3 md:gap-4">
+        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">
           <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 text-center font-serif">
+            <div class="font-bold text-2xl mb-2 text-center font-serif">
               The Coldest Sunset
             </div>
-            <p class="text-gray-700 text-base text-center">
+            <p class="text-lg text-center">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-navyblue hover:bg-hoverblue p-4 text-white text-lg w-3/4 rounded-2xl">
+            <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
               PLAY
             </button>
           </div>
         </div>
-        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-grey">
+        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">
           <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 text-center font-serif">
+            <div class="font-bold text-2xl mb-2 text-center font-serif">
               The Coldest Sunset
             </div>
-            <p class="text-gray-700 text-base text-center">
+            <p class="text-lg text-center">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-navyblue hover:bg-hoverblue p-4 text-white text-lg w-3/4 rounded-2xl">
+            <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
               PLAY
             </button>
           </div>
         </div>
-        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-grey">
+        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">
           <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 text-center font-serif">
+            <div class="font-bold text-2xl mb-2 text-center font-serif">
               The Coldest Sunset
             </div>
-            <p class="text-gray-700 text-base text-center">
+            <p class="text-lg text-center">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-navyblue hover:bg-hoverblue p-4 text-white text-lg w-3/4 rounded-2xl">
+            <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
               PLAY
             </button>
           </div>
         </div>
       </div>
       {/* News second row */}
-      <div className="flex flex-col bg-neutral-600 md:flex-row md:p-6 md:grid-cols-3 md:gap-4">
-        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-grey">
+      <div className="flex flex-col md:flex-row md:p-6 md:grid-cols-3 md:gap-4">
+        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">
           <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 text-center font-serif">
+            <div class="font-bold text-2xl mb-2 text-center font-serif">
               The Coldest Sunset
             </div>
-            <p class="text-gray-700 text-base text-center">
+            <p class="text-lg text-center">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-navyblue hover:bg-hoverblue p-4 text-white text-lg w-3/4 rounded-2xl">
+            <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
               PLAY
             </button>
           </div>
         </div>
-        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-grey">
+        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">
           <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 text-center font-serif">
+            <div class="font-bold text-2xl mb-2 text-center font-serif">
               The Coldest Sunset
             </div>
-            <p class="text-gray-700 text-base text-center">
+            <p class="text-lg text-center">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-navyblue hover:bg-hoverblue p-4 text-white text-lg w-3/4 rounded-2xl">
+            <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
               PLAY
             </button>
           </div>
         </div>
-        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-grey">
+        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">
           <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 text-center font-serif">
+            <div class="font-bold text-2xl mb-2 text-center font-serif">
               The Coldest Sunset
             </div>
-            <p class="text-gray-700 text-base text-center">
+            <p class="text-lg text-center">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-navyblue hover:bg-hoverblue p-4 text-white text-lg w-3/4 rounded-2xl">
+            <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
               PLAY
             </button>
           </div>

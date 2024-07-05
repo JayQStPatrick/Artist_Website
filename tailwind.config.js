@@ -18,6 +18,8 @@ module.exports = {
         hoverred: "#FF6969",
         armygreen: "#40A578",
         hovergreen: "#7ED7C1",
+        hovergrey: "#434242",
+        mainblue: "#1450A3",
       },
       screen: {
         sm: "480px",

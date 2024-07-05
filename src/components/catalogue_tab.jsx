@@ -38,7 +38,7 @@ const Catalogue_tab = () => {
           {/* Catalogue first row */}
           <div className="lg:flex flex-row ">
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
@@ -60,7 +60,7 @@ const Catalogue_tab = () => {
               </div>
             </div>
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
@@ -85,7 +85,7 @@ const Catalogue_tab = () => {
           {/* Catalogue second row */}
           <div className="lg:flex flex-row ">
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
@@ -107,7 +107,7 @@ const Catalogue_tab = () => {
               </div>
             </div>
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
@@ -132,7 +132,7 @@ const Catalogue_tab = () => {
           {/* Catalogue third row */}
           <div className="lg:flex flex-row ">
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
@@ -154,7 +154,7 @@ const Catalogue_tab = () => {
               </div>
             </div>
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
@@ -179,7 +179,7 @@ const Catalogue_tab = () => {
           {/* Catalogue fourth row */}
           <div className="lg:flex flex-row ">
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
@@ -201,7 +201,7 @@ const Catalogue_tab = () => {
               </div>
             </div>
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
