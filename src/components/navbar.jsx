@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 // import { FaBars, FaTimes, FaMagnifyingGlass } from "react-icons/fa";
 import { FaMagnifyingGlass } from "react-icons/fa6";
@@ -13,22 +13,44 @@ import Videos from "../components/videos_tab";
 
 const Navbar = ({ hasBackground }) => {
   const [click, setClick] = useState(false);
+  const [navbarBackground, setNavbarBackground] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  const changeBackground = () => {
+    if (window.scrollY >= 80) {
+      setNavbarBackground(true);
+    } else {
+      setNavbarBackground(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeBackground);
+    return () => {
+      window.removeEventListener("scroll", changeBackground);
+    };
+  }, []);
   return (
     <nav
       style={{
-        backgroundColor: hasBackground ? "rgba(0, 0, 0, 0.5)" : "transparent",
+        backgroundColor: navbarBackground ? "white" : "transparent",
+        color: navbarBackground ? "black" : "white",
         position: "fixed",
         width: "100%",
         zIndex: 100,
+        transition: "all 0.3s ease",
       }}
       className="container h-1/6 px-8"
     >
       {/* Brand Name */}
-      <div className="brand">JayQ St.Patrick</div>
+      <div
+        className="brand"
+        style={{ color: navbarBackground ? "black" : "white" }}
+      >
+        JayQ St.Patrick
+      </div>
       {/* Menu Icon */}
       <div className="menu-icon" onClick={handleClick}>
         {click ? <FaTimes /> : <FaBars />}
@@ -42,6 +64,7 @@ const Navbar = ({ hasBackground }) => {
             activeClassName="active"
             onClick={closeMobileMenu}
             className="text-solidwhite hover:text-grey nav-link"
+            style={{ color: navbarBackground ? "black" : "white" }}
           >
             News
           </NavLink>
@@ -53,6 +76,7 @@ const Navbar = ({ hasBackground }) => {
             activeClassName="active"
             onClick={closeMobileMenu}
             className="text-solidwhite hover:text-grey nav-link"
+            style={{ color: navbarBackground ? "black" : "white" }}
           >
             Catalogue
           </NavLink>
@@ -64,29 +88,30 @@ const Navbar = ({ hasBackground }) => {
             activeClassName="active"
             onClick={closeMobileMenu}
             className="text-solidwhite hover:text-grey nav-link"
+            style={{ color: navbarBackground ? "black" : "white" }}
           >
             Videos
           </NavLink>
         </li>
         <li>
-          <NavLink
+          {/* <NavLink
             to="/events_tab"
             activeClassName="active"
             onClick={closeMobileMenu}
             className="text-solidwhite hover:text-grey nav-link"
           >
             Events
-          </NavLink>
+          </NavLink> */}
         </li>
         <li>
-          <NavLink
+          {/* <NavLink
             to="/merch_tab"
             activeClassName="active"
             onClick={closeMobileMenu}
             className="text-solidwhite hover:text-grey nav-link"
           >
             Merch
-          </NavLink>
+          </NavLink> */}
         </li>
       </ul>
       {/* Search Bar */}

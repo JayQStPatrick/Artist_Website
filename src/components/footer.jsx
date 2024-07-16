@@ -80,37 +80,37 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaFacebook />
+                  <FaFacebook className="text-2xl" />
                 </a>
                 <a
                   href="https://www.instagram.com/jayq_gram?igsh=MXpyanZqemN1eTY="
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaInstagram />
+                  <FaInstagram className="text-2xl" />
                 </a>
                 <a
                   href="https://www.youtube.com/@JayQSt.Patrick"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaYoutube />
+                  <FaYoutube className="text-2xl" />
                 </a>
                 <a href="mailto:hearmeoutjayq@gmail.com">
-                  <FaEnvelope />
+                  <FaEnvelope className="text-2xl" />
                 </a>
                 <a
                   href="https://x.com/JayQ_Tweet?t=Sqxiezedgu7oJWMZpPAl4A&s=09"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaXTwitter />
+                  <FaXTwitter className="text-2xl" />
                 </a>
               </div>
             </div>
           </nav>
           <p className="text-base text-center">
-            &copy; {new Date().getFullYear()} John Qurix Web. All Rights
+            &copy; {new Date().getFullYear()} JayQ St. Patrick Web. All Rights
             Reserved.
           </p>
         </div>

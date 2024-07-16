@@ -5,6 +5,7 @@ import Pac from "../media/Pac.png";
 import SantanDave from "../media/SantanDave.png";
 import SnoopDogg from "../media/SnoopDogg.png";
 import Finished from "../media/finished_two.jpg";
+import JayQ1 from "../media/JayQ1.jpg";
 // import Footer from "../components/footer";
 const Catalogue_tab = () => {
   const [hasBackground, setHasBackground] = useState(false);
@@ -26,11 +27,11 @@ const Catalogue_tab = () => {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-thickred">
       <Navbar hasBackground={hasBackground} />
       <div className="flex-grow">
         <img
-          src={Finished}
+          src={JayQ1}
           alt="landing"
           className="bg-cover bg-center bg-repeat-x w-full"
         />
@@ -38,21 +39,21 @@ const Catalogue_tab = () => {
           {/* Catalogue first row */}
           <div className="lg:flex flex-row ">
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
                 <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
+                  <div className="font-bold text-xl p-4 text-white text-center">
                     The Coldest Sunset
                   </div>
-                  <p className="text-base text-center p-4">
+                  <p className="text-base text-white text-center p-4">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Voluptatibus quia, nulla! Maiores et perferendis eaque,
                     exercitationem praesentium nihil.
                   </p>
                   <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
+                    <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
                       PLAY
                     </button>
                   </div>
@@ -60,21 +61,21 @@ const Catalogue_tab = () => {
               </div>
             </div>
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
                 <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
+                  <div className="font-bold text-xl p-4 text-white text-center">
                     The Coldest Sunset
                   </div>
-                  <p className="text-base text-center p-4">
+                  <p className="text-base text-white text-center p-4">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Voluptatibus quia, nulla! Maiores et perferendis eaque,
                     exercitationem praesentium nihil.
                   </p>
                   <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
+                    <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
                       PLAY
                     </button>
                   </div>
@@ -85,21 +86,21 @@ const Catalogue_tab = () => {
           {/* Catalogue second row */}
           <div className="lg:flex flex-row ">
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
                 <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
+                  <div className="font-bold text-xl p-4 text-white text-center">
                     The Coldest Sunset
                   </div>
-                  <p className="text-base text-center p-4">
+                  <p className="text-base text-white text-center p-4">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Voluptatibus quia, nulla! Maiores et perferendis eaque,
                     exercitationem praesentium nihil.
                   </p>
                   <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
+                    <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
                       PLAY
                     </button>
                   </div>
@@ -107,21 +108,21 @@ const Catalogue_tab = () => {
               </div>
             </div>
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
                 <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
+                  <div className="font-bold text-xl p-4 text-white text-center">
                     The Coldest Sunset
                   </div>
-                  <p className="text-base text-center p-4">
+                  <p className="text-base text-white text-center p-4">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Voluptatibus quia, nulla! Maiores et perferendis eaque,
                     exercitationem praesentium nihil.
                   </p>
                   <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
+                    <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
                       PLAY
                     </button>
                   </div>
@@ -132,21 +133,21 @@ const Catalogue_tab = () => {
           {/* Catalogue third row */}
           <div className="lg:flex flex-row ">
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
                 <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
+                  <div className="font-bold text-xl p-4 text-white text-center">
                     The Coldest Sunset
                   </div>
-                  <p className="text-base text-center p-4">
+                  <p className="text-base text-white text-center p-4">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Voluptatibus quia, nulla! Maiores et perferendis eaque,
                     exercitationem praesentium nihil.
                   </p>
                   <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
+                    <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
                       PLAY
                     </button>
                   </div>
@@ -154,21 +155,21 @@ const Catalogue_tab = () => {
               </div>
             </div>
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
                 <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
+                  <div className="font-bold text-xl p-4 text-white text-center">
                     The Coldest Sunset
                   </div>
-                  <p className="text-base text-center p-4">
+                  <p className="text-base text-white text-center p-4">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Voluptatibus quia, nulla! Maiores et perferendis eaque,
                     exercitationem praesentium nihil.
                   </p>
                   <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
+                    <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
                       PLAY
                     </button>
                   </div>
@@ -179,21 +180,21 @@ const Catalogue_tab = () => {
           {/* Catalogue fourth row */}
           <div className="lg:flex flex-row ">
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
                 <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
+                  <div className="font-bold text-xl p-4 text-white text-center">
                     The Coldest Sunset
                   </div>
-                  <p className="text-base text-center p-4">
+                  <p className="text-base text-white text-center p-4">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Voluptatibus quia, nulla! Maiores et perferendis eaque,
                     exercitationem praesentium nihil.
                   </p>
                   <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
+                    <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
                       PLAY
                     </button>
                   </div>
@@ -201,21 +202,21 @@ const Catalogue_tab = () => {
               </div>
             </div>
             <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto border-4 hover:bg-hovergrey md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
+              <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
                   <img className="w-full" src={Pac} alt="HipHop Artist" />
                 </div>
                 <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
+                  <div className="font-bold text-xl p-4 text-white text-center">
                     The Coldest Sunset
                   </div>
-                  <p className="text-base text-center p-4">
+                  <p className="text-base text-white text-center p-4">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Voluptatibus quia, nulla! Maiores et perferendis eaque,
                     exercitationem praesentium nihil.
                   </p>
                   <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
+                    <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
                       PLAY
                     </button>
                   </div>

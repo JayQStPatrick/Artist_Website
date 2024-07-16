@@ -27,7 +27,7 @@
   color: black;
 }
 
-.navbar a.active {
+.navlink.active {
   text-decoration: underline;
 }
 

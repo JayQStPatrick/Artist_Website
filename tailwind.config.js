@@ -20,6 +20,7 @@ module.exports = {
         hovergreen: "#7ED7C1",
         hovergrey: "#434242",
         mainblue: "#1450A3",
+        bgblue: "#11235A",
       },
       screen: {
         sm: "480px",

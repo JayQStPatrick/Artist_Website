@@ -5,6 +5,7 @@ import ChrisBrown from "../media/ChrisBrown.png";
 import Pac from "../media/Pac.png";
 import SantanDave from "../media/SantanDave.png";
 import SnoopDogg from "../media/SnoopDogg.png";
+import JayQ2 from "../media/JayQ2.jpeg";
 
 // Creating usestates
 const Videos_tab = () => {
@@ -28,21 +29,21 @@ const Videos_tab = () => {
   }, []);
 
   return (
-    <div className="">
+    <div className="bg-bgblue">
       <Navbar hasBackground={hasBackground} />
       <div className="">
         <img
-          src={Pac}
+          src={JayQ2}
           alt="landing"
           className="bg-cover bg-center bg-repeat-x w-full h-1/6"
         />
       </div>
       {/* Videos first row */}
-      <div className="flex flex-col bg-neutral-600 md:flex-row grid md:grid-cols-3 md:gap-4">
-        <div class="relative p-8 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
+      <div className="flex flex-col w-1/2 mx-auto md:flex-row grid md:w-4/5 md:grid-cols-3 md:gap-2 lg:w-3/4 lg:grid-cols-4 lg:gap-1">
+        <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
           <img class="w-full" src={Pac} alt="HipHop Artist" />
           <div class="overlay absolute inset-0 flex items-center justify-center opacity-100 transition duration-300 mt-[-80px] md:mt-[-100px]">
-            <FaChevronRight className="text-hoverblue text-7xl md:text-8xl" />
+            <FaChevronRight className="text-paperwhite border-paperwhite border-2 text-7xl md:text-5xl w-2/5" />
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
@@ -50,10 +51,10 @@ const Videos_tab = () => {
             </div>
           </div>
         </div>
-        <div class="relative p-8 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white">
+        <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
           <img class="w-full" src={Pac} alt="HipHop Artist" />
           <div class="overlay absolute inset-0 flex items-center justify-center opacity-100 transition duration-300 mt-[-80px] md:mt-[-100px]">
-            <FaChevronRight className="text-hoverblue text-7xl md:text-8xl" />
+            <FaChevronRight className="text-paperwhite border-paperwhite border-2 text-7xl md:text-5xl w-2/5" />
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
@@ -61,10 +62,10 @@ const Videos_tab = () => {
             </div>
           </div>
         </div>
-        <div class="relative p-8 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white">
+        <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
           <img class="w-full" src={Pac} alt="HipHop Artist" />
           <div class="overlay absolute inset-0 flex items-center justify-center opacity-100 transition duration-300 mt-[-80px] md:mt-[-100px]">
-            <FaChevronRight className="text-hoverblue text-7xl md:text-8xl" />
+            <FaChevronRight className="text-paperwhite border-paperwhite border-2 text-7xl md:text-5xl w-2/5" />
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
@@ -72,10 +73,10 @@ const Videos_tab = () => {
             </div>
           </div>
         </div>
-        <div class="relative p-8 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white">
+        <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
           <img class="w-full" src={Pac} alt="HipHop Artist" />
           <div class="overlay absolute inset-0 flex items-center justify-center opacity-100 transition duration-300 mt-[-80px] md:mt-[-100px]">
-            <FaChevronRight className="text-hoverblue text-7xl md:text-8xl" />
+            <FaChevronRight className="text-paperwhite border-paperwhite border-2 text-7xl md:text-5xl w-2/5" />
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
@@ -85,11 +86,11 @@ const Videos_tab = () => {
         </div>
       </div>
       {/* Videos second row */}
-      <div className="flex flex-col bg-neutral-600 md:flex-row grid md:grid-cols-3 md:gap-4">
-        <div class="relative p-8 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white">
+      <div className="flex flex-col w-1/2 mx-auto md:flex-row grid md:w-4/5 md:grid-cols-3 md:gap-2 lg:w-3/4 lg:grid-cols-4 lg:gap-1">
+        <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
           <img class="w-full" src={Pac} alt="HipHop Artist" />
           <div class="overlay absolute inset-0 flex items-center justify-center opacity-100 transition duration-300 mt-[-80px] md:mt-[-100px]">
-            <FaChevronRight className="text-hoverblue text-7xl md:text-8xl" />
+            <FaChevronRight className="text-paperwhite border-paperwhite border-2 text-7xl md:text-5xl w-2/5" />
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
@@ -97,10 +98,10 @@ const Videos_tab = () => {
             </div>
           </div>
         </div>
-        <div class="relative p-8 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white">
+        <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
           <img class="w-full" src={Pac} alt="HipHop Artist" />
           <div class="overlay absolute inset-0 flex items-center justify-center opacity-100 transition duration-300 mt-[-80px] md:mt-[-100px]">
-            <FaChevronRight className="text-hoverblue text-7xl md:text-8xl" />
+            <FaChevronRight className="text-paperwhite border-paperwhite border-2 text-7xl md:text-5xl w-2/5" />
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
@@ -108,10 +109,10 @@ const Videos_tab = () => {
             </div>
           </div>
         </div>
-        <div class="relative p-8 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white">
+        <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
           <img class="w-full" src={Pac} alt="HipHop Artist" />
           <div class="overlay absolute inset-0 flex items-center justify-center opacity-100 transition duration-300 mt-[-80px] md:mt-[-100px]">
-            <FaChevronRight className="text-hoverblue text-7xl md:text-8xl" />
+            <FaChevronRight className="text-paperwhite border-paperwhite border-2 text-7xl md:text-5xl w-2/5" />
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
@@ -119,10 +120,10 @@ const Videos_tab = () => {
             </div>
           </div>
         </div>
-        <div class="relative p-8 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white">
+        <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
           <img class="w-full" src={Pac} alt="HipHop Artist" />
           <div class="overlay absolute inset-0 flex items-center justify-center opacity-100 transition duration-300 mt-[-80px] md:mt-[-100px]">
-            <FaChevronRight className="text-hoverblue text-7xl md:text-8xl" />
+            <FaChevronRight className="text-paperwhite border-paperwhite border-2 text-7xl md:text-5xl w-2/5" />
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
@@ -132,11 +133,11 @@ const Videos_tab = () => {
         </div>
       </div>
       {/* Videos Third row */}
-      <div className="flex flex-col bg-neutral-600 md:flex-row grid md:grid-cols-3 md:gap-4">
-        <div class="relative p-8 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white">
+      <div className="flex flex-col w-1/2 mx-auto md:flex-row grid md:w-4/5 md:grid-cols-3 md:gap-2 lg:w-3/4 lg:grid-cols-4 lg:gap-1">
+        <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
           <img class="w-full" src={Pac} alt="HipHop Artist" />
           <div class="overlay absolute inset-0 flex items-center justify-center opacity-100 transition duration-300 mt-[-80px] md:mt-[-100px]">
-            <FaChevronRight className="text-hoverblue text-7xl md:text-8xl" />
+            <FaChevronRight className="text-paperwhite border-paperwhite border-2 text-7xl md:text-5xl w-2/5" />
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
@@ -144,10 +145,10 @@ const Videos_tab = () => {
             </div>
           </div>
         </div>
-        <div class="relative p-8 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white">
+        <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
           <img class="w-full" src={Pac} alt="HipHop Artist" />
           <div class="overlay absolute inset-0 flex items-center justify-center opacity-100 transition duration-300 mt-[-80px] md:mt-[-100px]">
-            <FaChevronRight className="text-hoverblue text-7xl md:text-8xl" />
+            <FaChevronRight className="text-paperwhite border-paperwhite border-2 text-7xl md:text-5xl w-2/5" />
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
@@ -155,10 +156,10 @@ const Videos_tab = () => {
             </div>
           </div>
         </div>
-        <div class="relative p-8 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white">
+        <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
           <img class="w-full" src={Pac} alt="HipHop Artist" />
           <div class="overlay absolute inset-0 flex items-center justify-center opacity-100 transition duration-300 mt-[-80px] md:mt-[-100px]">
-            <FaChevronRight className="text-hoverblue text-7xl md:text-8xl" />
+            <FaChevronRight className="text-paperwhite border-paperwhite border-2 text-7xl md:text-5xl w-2/5" />
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
@@ -166,10 +167,10 @@ const Videos_tab = () => {
             </div>
           </div>
         </div>
-        <div class="relative p-8 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white">
+        <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
           <img class="w-full" src={Pac} alt="HipHop Artist" />
           <div class="overlay absolute inset-0 flex items-center justify-center opacity-100 transition duration-300 mt-[-80px] md:mt-[-100px]">
-            <FaChevronRight className="text-hoverblue text-7xl md:text-8xl" />
+            <FaChevronRight className="text-paperwhite border-paperwhite border-2 text-7xl md:text-5xl w-2/5" />
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
