@@ -45,16 +45,15 @@ const Catalogue_tab = () => {
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
-                    The Coldest Sunset
+                    The Boy From KD
                   </div>
                   <p className="text-base text-white text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
+                    A nostalgic mixtape blending Afrobeat rhythms and soulful
+                    melodies, capturing the essence of a boy from Kaduna.
                   </p>
                   <div className="text-center py-2">
                     <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
-                      PLAY
+                      Download
                     </button>
                   </div>
                 </div>
@@ -67,16 +66,15 @@ const Catalogue_tab = () => {
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
-                    The Coldest Sunset
+                    Ontop
                   </div>
                   <p className="text-base text-white text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
+                    JayQ St. Patrick's 'Ontop' is a soulful love track,
+                    celebrating passion and connection with mesmerizing melodies
                   </p>
                   <div className="text-center py-2">
                     <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
-                      PLAY
+                      Play
                     </button>
                   </div>
                 </div>
@@ -92,12 +90,12 @@ const Catalogue_tab = () => {
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
-                    The Coldest Sunset
+                    Corporate
                   </div>
                   <p className="text-base text-white text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
+                    Corporate by JayQ St. Patrick delivers a hard-hitting,
+                    energetic anthem exploring the dynamics of ambition and
+                    power in business.
                   </p>
                   <div className="text-center py-2">
                     <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
@@ -114,12 +112,12 @@ const Catalogue_tab = () => {
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
-                    The Coldest Sunset
+                    Jara
                   </div>
                   <p className="text-base text-white text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
+                    "Jara" by JayQ St. Patrick featuring Trimz is an uplifting
+                    anthem of resilience, joy, and unity, inspiring hearts
+                    worldwide.
                   </p>
                   <div className="text-center py-2">
                     <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
@@ -139,12 +137,12 @@ const Catalogue_tab = () => {
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
-                    The Coldest Sunset
+                    My Shoulder
                   </div>
                   <p className="text-base text-white text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
+                    "My Shoulder" by JayQ St. Patrick featuring Geekay and ESK
+                    is a powerful hip hop track celebrating brotherhood,
+                    loyalty, and unwavering support through life's challenges.
                   </p>
                   <div className="text-center py-2">
                     <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
@@ -161,12 +159,12 @@ const Catalogue_tab = () => {
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
-                    The Coldest Sunset
+                    Lemon Pepper Freestyle
                   </div>
                   <p className="text-base text-white text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
+                    "Lemon Pepper" by JayQ St. Patrick: A raw, emotional
+                    freestyle exploring life's hardships, resilience, and
+                    triumph through powerful, heartfelt lyrics.
                   </p>
                   <div className="text-center py-2">
                     <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
@@ -186,12 +184,12 @@ const Catalogue_tab = () => {
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
-                    The Coldest Sunset
+                    Crown of Clay Freestyle
                   </div>
                   <p className="text-base text-white text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
+                    JayQ St. Patrick's 'Crown of Clay' delivers raw, poetic bars
+                    exploring heritage, resilience, and identity in powerful
+                    freestyle.
                   </p>
                   <div className="text-center py-2">
                     <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
@@ -208,12 +206,12 @@ const Catalogue_tab = () => {
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
-                    The Coldest Sunset
+                    Feelings Cover
                   </div>
                   <p className="text-base text-white text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
+                    JayQ St. Patrick's 'Feelings' delivers raw emotions through
+                    captivating lyrics, showcasing heartfelt storytelling in an
+                    electrifying hip hop freestyle.
                   </p>
                   <div className="text-center py-2">
                     <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">

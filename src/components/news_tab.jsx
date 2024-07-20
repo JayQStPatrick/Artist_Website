@@ -44,12 +44,28 @@ const News_tab = () => {
           <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
           <div class="px-6 py-4">
             <div class="font-bold text-2xl mb-2 text-center font-serif">
-              The Coldest Sunset
+              The Boy From KD
             </div>
             <p class="text-lg text-center">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
+              A nostalgic mixtape blending Afrobeat rhythms and soulful
+              melodies, capturing the essence of a boy from Kaduna.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2 text-center">
+            <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
+              Download
+            </button>
+          </div>
+        </div>
+        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">
+          <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-2xl mb-2 text-center font-serif">
+              Corporate
+            </div>
+            <p class="text-lg text-center">
+              Corporate by JayQ St. Patrick delivers a hard-hitting, energetic
+              anthem exploring the dynamics of ambition and power in business.
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
@@ -62,30 +78,11 @@ const News_tab = () => {
           <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
           <div class="px-6 py-4">
             <div class="font-bold text-2xl mb-2 text-center font-serif">
-              The Coldest Sunset
+              Ontop
             </div>
             <p class="text-lg text-center">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
-            </p>
-          </div>
-          <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
-              PLAY
-            </button>
-          </div>
-        </div>
-        <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">
-          <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
-          <div class="px-6 py-4">
-            <div class="font-bold text-2xl mb-2 text-center font-serif">
-              The Coldest Sunset
-            </div>
-            <p class="text-lg text-center">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
+              JayQ St. Patrick's 'Ontop' is a soulful love track, celebrating
+              passion and connection with mesmerizing melodies.
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
@@ -101,12 +98,11 @@ const News_tab = () => {
           <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
           <div class="px-6 py-4">
             <div class="font-bold text-2xl mb-2 text-center font-serif">
-              The Coldest Sunset
+              Jara
             </div>
             <p class="text-lg text-center">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
+              "Jara" by JayQ St. Patrick featuring Trimz is an uplifting anthem
+              of resilience, joy, and unity, inspiring hearts worldwide.
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
@@ -119,12 +115,12 @@ const News_tab = () => {
           <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
           <div class="px-6 py-4">
             <div class="font-bold text-2xl mb-2 text-center font-serif">
-              The Coldest Sunset
+              My Shoulder
             </div>
             <p class="text-lg text-center">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
+              "My Shoulder" by JayQ St. Patrick featuring Geekay and ESK is a
+              powerful hip hop track celebrating brotherhood, loyalty, and
+              unwavering support through life's challenges.
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
@@ -137,12 +133,12 @@ const News_tab = () => {
           <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
           <div class="px-6 py-4">
             <div class="font-bold text-2xl mb-2 text-center font-serif">
-              The Coldest Sunset
+              Lemon Pepper Freestyle
             </div>
             <p class="text-lg text-center">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
+              "Lemon Pepper" by JayQ St. Patrick: A raw, emotional freestyle
+              exploring life's hardships, resilience, and triumph through
+              powerful, heartfelt lyrics.
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">

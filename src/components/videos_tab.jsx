@@ -47,7 +47,7 @@ const Videos_tab = () => {
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
-              The Coldest Sunset
+              Lemon Pepper Freestyle
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@ const Videos_tab = () => {
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
-              The Coldest Sunset
+              Ontop (Viral Video)
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@ const Videos_tab = () => {
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
-              The Coldest Sunset
+              The Boy From KD (Viral Video)
             </div>
           </div>
         </div>
@@ -80,7 +80,7 @@ const Videos_tab = () => {
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
-              The Coldest Sunset
+              Same Genes Freestyle
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ const Videos_tab = () => {
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
-              The Coldest Sunset
+              Stain Freestyle
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@ const Videos_tab = () => {
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
-              The Coldest Sunset
+              How to write like Ladipoe
             </div>
           </div>
         </div>
@@ -115,9 +115,7 @@ const Videos_tab = () => {
             <FaChevronRight className="text-paperwhite border-paperwhite border-2 text-7xl md:text-5xl w-2/5" />
           </div>
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 text-center">
-              The Coldest Sunset
-            </div>
+            <div class="font-bold text-xl mb-2 text-center">Leave your Ex</div>
           </div>
         </div>
         <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
@@ -126,9 +124,7 @@ const Videos_tab = () => {
             <FaChevronRight className="text-paperwhite border-paperwhite border-2 text-7xl md:text-5xl w-2/5" />
           </div>
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2 text-center">
-              The Coldest Sunset
-            </div>
+            <div class="font-bold text-xl mb-2 text-center">Crown of Clay</div>
           </div>
         </div>
       </div>
@@ -141,7 +137,7 @@ const Videos_tab = () => {
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
-              The Coldest Sunset
+              Closet Bars Episode 1
             </div>
           </div>
         </div>
@@ -152,7 +148,7 @@ const Videos_tab = () => {
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
-              The Coldest Sunset
+              Closet Bars Episode 2
             </div>
           </div>
         </div>
@@ -163,7 +159,7 @@ const Videos_tab = () => {
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
-              The Coldest Sunset
+              Closet Bars Episode 3
             </div>
           </div>
         </div>
@@ -174,7 +170,7 @@ const Videos_tab = () => {
           </div>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-center">
-              The Coldest Sunset
+              Closet Bars Episode 4
             </div>
           </div>
         </div>

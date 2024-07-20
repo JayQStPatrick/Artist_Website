@@ -35,193 +35,22 @@ const About = () => {
           className="bg-cover bg-center bg-repeat-x w-full"
         />
         <div className="p-6">
-          {/* Catalogue first row */}
-          <div className="lg:flex flex-row ">
-            <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
-                <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
-                </div>
-                <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
-                    The Coldest Sunset
-                  </div>
-                  <p className="text-base text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
-                  </p>
-                  <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
-                      PLAY
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
-                <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
-                </div>
-                <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
-                    The Coldest Sunset
-                  </div>
-                  <p className="text-base text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
-                  </p>
-                  <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
-                      PLAY
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Catalogue second row */}
-          <div className="lg:flex flex-row ">
-            <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
-                <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
-                </div>
-                <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
-                    The Coldest Sunset
-                  </div>
-                  <p className="text-base text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
-                  </p>
-                  <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
-                      PLAY
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
-                <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
-                </div>
-                <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
-                    The Coldest Sunset
-                  </div>
-                  <p className="text-base text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
-                  </p>
-                  <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
-                      PLAY
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Catalogue third row */}
-          <div className="lg:flex flex-row ">
-            <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
-                <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
-                </div>
-                <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
-                    The Coldest Sunset
-                  </div>
-                  <p className="text-base text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
-                  </p>
-                  <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
-                      PLAY
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
-                <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
-                </div>
-                <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
-                    The Coldest Sunset
-                  </div>
-                  <p className="text-base text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
-                  </p>
-                  <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
-                      PLAY
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Catalogue fourth row */}
-          <div className="lg:flex flex-row ">
-            <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
-                <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
-                </div>
-                <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
-                    The Coldest Sunset
-                  </div>
-                  <p className="text-base text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
-                  </p>
-                  <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
-                      PLAY
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="lg:p-5 ">
-              <div className="flex flex-col w-3/4 mx-auto md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
-                <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
-                </div>
-                <div className="md:w-3/4 md:p-3">
-                  <div className="font-bold text-xl p-4 text-center">
-                    The Coldest Sunset
-                  </div>
-                  <p className="text-base text-center p-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
-                  </p>
-                  <div className="text-center py-2">
-                    <button className="bg-navyblue text-white text-lg w-1/3 rounded-2xl ">
-                      PLAY
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="w-1/2 mx-auto p-4">
+            <h1 class="text-4xl text-center">
+              Welcome to JayQ St. Patrick Music
+            </h1>
+            <p class="text-2xl text-center mt-8">
+              JayQ St. Patrick is an electrifying new force in hip hop, hailing
+              from Kaduna, Nigeria. His lyrical precision and storytelling
+              prowess set him apart, drawing inspiration from idols like J.
+              Cole, Meek Mill, and MI Abaga. JayQ's attention to detail shines
+              through in every verse, weaving intricate narratives with a
+              compelling rhythm. His music captures the essence of his Nigerian
+              roots while resonating globally, offering a fresh, authentic
+              perspective in the rap scene. As he rises through the ranks, JayQ
+              St. Patrick is poised to make a profound impact with his unique
+              voice and masterful lyricism.
+            </p>
           </div>
         </div>
       </div>
