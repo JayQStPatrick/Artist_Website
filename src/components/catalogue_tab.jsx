@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./navbar";
-import ChrisBrown from "../media/ChrisBrown.png";
-import Pac from "../media/Pac.png";
-import SantanDave from "../media/SantanDave.png";
-import SnoopDogg from "../media/SnoopDogg.png";
-import Finished from "../media/finished_two.jpg";
 import JayQ1 from "../media/JayQ1.jpg";
+import TBFKD from "../media/TBFKDcover.jpg";
+import corporate from "../media/CorporateCover.jpeg";
+import ontop from "../media/OntopCover.png";
+import jara from "../media/JaraCover.png";
+import myshoulder from "../media/MyshoulderCover.png";
+import lemonpepper from "../media/LemonPepperCover.png";
+import crownofclay from "../media/CrownofclayCover.png";
+import feelings from "../media/FeelingsCover.png";
+
 // import Footer from "../components/footer";
 const Catalogue_tab = () => {
   const [hasBackground, setHasBackground] = useState(false);
@@ -41,14 +45,14 @@ const Catalogue_tab = () => {
             <div className="lg:p-5 ">
               <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
+                  <img className="w-full" src={TBFKD} alt="HipHop Artist" />
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
                     The Boy From KD
                   </div>
                   <p className="text-base text-white text-center p-4">
-                    A nostalgic mixtape blending Afrobeat rhythms and soulful
+                    A nostalgic mixtape blending HipHop rhythms and soulful
                     melodies, capturing the essence of a boy from Kaduna.
                   </p>
                   <div className="text-center py-2">
@@ -62,7 +66,7 @@ const Catalogue_tab = () => {
             <div className="lg:p-5 ">
               <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
+                  <img className="w-full" src={ontop} alt="HipHop Artist" />
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
@@ -73,9 +77,13 @@ const Catalogue_tab = () => {
                     celebrating passion and connection with mesmerizing melodies
                   </p>
                   <div className="text-center py-2">
-                    <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
-                      Play
-                    </button>
+                    <a
+                      href="https://audiomack.com/jayq_sounds/song/ontop"
+                      target="_blank"
+                      className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+                    >
+                      PLAY
+                    </a>
                   </div>
                 </div>
               </div>
@@ -86,7 +94,7 @@ const Catalogue_tab = () => {
             <div className="lg:p-5 ">
               <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
+                  <img className="w-full" src={corporate} alt="HipHop Artist" />
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
@@ -98,9 +106,13 @@ const Catalogue_tab = () => {
                     power in business.
                   </p>
                   <div className="text-center py-2">
-                    <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
+                    <a
+                      href="https://audiomack.com/jayq_sounds/song/corporate"
+                      target="_blank"
+                      className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+                    >
                       PLAY
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -108,7 +120,7 @@ const Catalogue_tab = () => {
             <div className="lg:p-5 ">
               <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
+                  <img className="w-full" src={jara} alt="HipHop Artist" />
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
@@ -120,9 +132,13 @@ const Catalogue_tab = () => {
                     worldwide.
                   </p>
                   <div className="text-center py-2">
-                    <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
+                    <a
+                      href="https://audiomack.com/jayq_sounds/song/jara"
+                      target="_blank"
+                      className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+                    >
                       PLAY
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -133,7 +149,11 @@ const Catalogue_tab = () => {
             <div className="lg:p-5 ">
               <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
+                  <img
+                    className="w-full"
+                    src={myshoulder}
+                    alt="HipHop Artist"
+                  />
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
@@ -145,9 +165,13 @@ const Catalogue_tab = () => {
                     loyalty, and unwavering support through life's challenges.
                   </p>
                   <div className="text-center py-2">
-                    <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
+                    <a
+                      href="https://audiomack.com/jayq_sounds/song/yeb-my-shoulder"
+                      target="_blank"
+                      className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+                    >
                       PLAY
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -155,7 +179,11 @@ const Catalogue_tab = () => {
             <div className="lg:p-5 ">
               <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
+                  <img
+                    className="w-full"
+                    src={lemonpepper}
+                    alt="HipHop Artist"
+                  />
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
@@ -167,9 +195,13 @@ const Catalogue_tab = () => {
                     triumph through powerful, heartfelt lyrics.
                   </p>
                   <div className="text-center py-2">
-                    <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
+                    <a
+                      href="https://audiomack.com/jayq_sounds/song/lemon-pepper-freestyle"
+                      target="_blank"
+                      className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+                    >
                       PLAY
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -180,7 +212,11 @@ const Catalogue_tab = () => {
             <div className="lg:p-5 ">
               <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
+                  <img
+                    className="w-full"
+                    src={crownofclay}
+                    alt="HipHop Artist"
+                  />
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
@@ -192,9 +228,13 @@ const Catalogue_tab = () => {
                     freestyle.
                   </p>
                   <div className="text-center py-2">
-                    <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
+                    <a
+                      href="https://audiomack.com/jayq_sounds/song/crownofclaycover"
+                      target="_blank"
+                      className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+                    >
                       PLAY
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -202,7 +242,7 @@ const Catalogue_tab = () => {
             <div className="lg:p-5 ">
               <div className="flex flex-col w-3/4 mx-auto border-2 border-black hover:bg-black md:min-w-2/6 md:flex-row lg:float-left clear-both display-table lg:w-full">
                 <div className="md:w-1/2 md:p-3">
-                  <img className="w-full" src={Pac} alt="HipHop Artist" />
+                  <img className="w-full" src={feelings} alt="HipHop Artist" />
                 </div>
                 <div className="md:w-3/4 md:p-3">
                   <div className="font-bold text-xl p-4 text-white text-center">
@@ -214,9 +254,13 @@ const Catalogue_tab = () => {
                     electrifying hip hop freestyle.
                   </p>
                   <div className="text-center py-2">
-                    <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
+                    <a
+                      href="https://audiomack.com/jayq_sounds/song/lemme-know-cover"
+                      target="_blank"
+                      className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+                    >
                       PLAY
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>

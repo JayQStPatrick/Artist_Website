@@ -1,11 +1,16 @@
 import React, { useState, useEffect } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "../navbar.css";
 import Navbar from "./navbar";
-import ChrisBrown from "../media/ChrisBrown.png";
-import Pac from "../media/Pac.png";
-import SantanDave from "../media/SantanDave.png";
-import SnoopDogg from "../media/SnoopDogg.png";
 import Meek from "../media/meek.png";
-import Subscribe from "./subscribe/subscribe";
+import TBFKD from "../media/TBFKDcover.jpg";
+import corporate from "../media/CorporateCover.jpeg";
+import ontop from "../media/OntopCover.png";
+import jara from "../media/JaraCover.png";
+import myshoulder from "../media/MyshoulderCover.png";
+import lemonpepper from "../media/LemonPepperCover.png";
 
 // Creating usestates
 const News_tab = () => {
@@ -28,37 +33,74 @@ const News_tab = () => {
     };
   }, []);
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
+
   return (
     <div className="">
       <Navbar hasBackground={hasBackground} />
-      <div className="">
-        <img
-          src={Meek}
-          alt="landing"
-          className="bg-cover bg-center bg-repeat-x w-full"
-        />
+      <div className="h-1/2">
+        <Slider {...settings}>
+          <div>
+            <video
+              src="/Videos/Clip3.mp4"
+              type="mp4"
+              autoPlay
+              loop
+              muted
+              className="video-background"
+            />
+          </div>
+          <div>
+            <video
+              src="/Videos/Clip3.mp4"
+              type="mp4"
+              autoPlay
+              loop
+              muted
+              className="video-background"
+            />
+          </div>
+          <div>
+            <video
+              src="/Videos/Clip3.mp4"
+              type="mp4"
+              autoPlay
+              loop
+              muted
+              className="video-background"
+            />
+          </div>
+        </Slider>
       </div>
       {/* News first row */}
       <div className="flex flex-col md:flex-row md:p-6 md:grid-cols-3 md:gap-4">
         <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">
-          <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
+          <img class="w-full" src={TBFKD} alt="HipHop Artist" />
           <div class="px-6 py-4">
             <div class="font-bold text-2xl mb-2 text-center font-serif">
               The Boy From KD
             </div>
             <p class="text-lg text-center">
-              A nostalgic mixtape blending Afrobeat rhythms and soulful
-              melodies, capturing the essence of a boy from Kaduna.
+              A nostalgic mixtape blending HipHop rhythms and soulful melodies,
+              capturing the essence of a boy from Kaduna.
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
+            <a className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
               Download
-            </button>
+            </a>
           </div>
         </div>
         <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">
-          <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
+          <img class="w-full" src={corporate} alt="HipHop Artist" />
           <div class="px-6 py-4">
             <div class="font-bold text-2xl mb-2 text-center font-serif">
               Corporate
@@ -69,13 +111,17 @@ const News_tab = () => {
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
+            <a
+              href="https://audiomack.com/jayq_sounds/song/corporate"
+              target="_blank"
+              className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+            >
               PLAY
-            </button>
+            </a>
           </div>
         </div>
         <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">
-          <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
+          <img class="w-full" src={ontop} alt="HipHop Artist" />
           <div class="px-6 py-4">
             <div class="font-bold text-2xl mb-2 text-center font-serif">
               Ontop
@@ -86,16 +132,20 @@ const News_tab = () => {
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
+            <a
+              href="https://audiomack.com/jayq_sounds/song/ontop"
+              target="_blank"
+              className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+            >
               PLAY
-            </button>
+            </a>
           </div>
         </div>
       </div>
       {/* News second row */}
       <div className="flex flex-col md:flex-row md:p-6 md:grid-cols-3 md:gap-4">
         <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">
-          <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
+          <img class="w-full" src={jara} alt="HipHop Artist" />
           <div class="px-6 py-4">
             <div class="font-bold text-2xl mb-2 text-center font-serif">
               Jara
@@ -106,13 +156,17 @@ const News_tab = () => {
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
+            <a
+              href="https://audiomack.com/jayq_sounds/song/jara"
+              target="_blank"
+              className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+            >
               PLAY
-            </button>
+            </a>
           </div>
         </div>
         <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">
-          <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
+          <img class="w-full" src={myshoulder} alt="HipHop Artist" />
           <div class="px-6 py-4">
             <div class="font-bold text-2xl mb-2 text-center font-serif">
               My Shoulder
@@ -124,13 +178,17 @@ const News_tab = () => {
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
+            <a
+              href="https://audiomack.com/jayq_sounds/song/yeb-my-shoulder"
+              target="_blank"
+              className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+            >
               PLAY
-            </button>
+            </a>
           </div>
         </div>
         <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">
-          <img class="w-full" src={ChrisBrown} alt="HipHop Artist" />
+          <img class="w-full" src={lemonpepper} alt="HipHop Artist" />
           <div class="px-6 py-4">
             <div class="font-bold text-2xl mb-2 text-center font-serif">
               Lemon Pepper Freestyle
@@ -142,12 +200,17 @@ const News_tab = () => {
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
+            <a
+              href="https://audiomack.com/jayq_sounds/song/lemon-pepper-freestyle"
+              target="_blank"
+              className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+            >
               PLAY
-            </button>
+            </a>
           </div>
         </div>
       </div>
+
       {/* <Subscribe /> */}
     </div>
   );

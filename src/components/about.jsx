@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./navbar";
-import ChrisBrown from "../media/ChrisBrown.png";
-import Pac from "../media/Pac.png";
-import SantanDave from "../media/SantanDave.png";
-import SnoopDogg from "../media/SnoopDogg.png";
-import Finished from "../media/finished_two.jpg";
+import aboutme from "../media/AboutmeCover.jpeg";
 // import Footer from "../components/footer";
 const About = () => {
   const [hasBackground, setHasBackground] = useState(false);
@@ -30,7 +26,7 @@ const About = () => {
       <Navbar hasBackground={hasBackground} />
       <div className="flex-grow">
         <img
-          src={Finished}
+          src={aboutme}
           alt="landing"
           className="bg-cover bg-center bg-repeat-x w-full"
         />
