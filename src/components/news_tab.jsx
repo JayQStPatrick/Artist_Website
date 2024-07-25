@@ -193,6 +193,7 @@ const News_tab = () => {
             <a
               href="https://audiomack.com/jayq_sounds/song/yeb-my-shoulder"
               target="_blank"
+              rel="noreferrer"
               className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
             >
               PLAY
