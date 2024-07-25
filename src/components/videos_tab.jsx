@@ -54,7 +54,7 @@ const Videos_tab = () => {
         <a
           href="https://youtu.be/rNb1fm2DDQk?si=EMsMuy3rx0yVSEl1"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
           <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white">
             <div className="block">
@@ -73,7 +73,7 @@ const Videos_tab = () => {
         <a
           href="https://youtu.be/mVmvvVGQLfQ?si=tKp4M_vtj-abYZDZ"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
           <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
             <img class="w-full" src={ontop} alt="HipHop Artist" />
@@ -90,7 +90,7 @@ const Videos_tab = () => {
         <a
           href="https://www.instagram.com/reel/C8qxGP0saF-/?igsh=MWQwbnVxZDNjM3o0NQ=="
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
           <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
             <img class="w-full" src={TBFKD} alt="HipHop Artist" />
@@ -107,7 +107,7 @@ const Videos_tab = () => {
         <a
           href="https://youtu.be/kslcg2BVyAg?si=o8cKK6t87jN5jCA7"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
           <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
             <img class="w-full" src={samegenes} alt="HipHop Artist" />
@@ -127,7 +127,7 @@ const Videos_tab = () => {
         <a
           href="https://youtu.be/WiH_JQ0Gg8A?si=AO4zxS-FxV7BMcAb"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
           <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
             <img class="w-full" src={stain} alt="HipHop Artist" />
@@ -144,7 +144,7 @@ const Videos_tab = () => {
         <a
           href="https://youtu.be/ehNkxZEMYrA?si=GHe8lxaqE2lLzMsg"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
           <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
             <img class="w-full" src={writelikeladipoe} alt="HipHop Artist" />
@@ -161,7 +161,7 @@ const Videos_tab = () => {
         <a
           href="https://youtu.be/HeT-SJOVu5M?si=HdW3h0HTS_NRpatA"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
           <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
             <img class="w-full" src={leaveyourx} alt="HipHop Artist" />
@@ -178,7 +178,7 @@ const Videos_tab = () => {
         <a
           href="https://www.instagram.com/tv/CSe0-GnFiSE/?igsh=eGp0ZThjc3BvcGo5"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
           <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
             <img class="w-full" src={crownofclay} alt="HipHop Artist" />
@@ -198,7 +198,7 @@ const Videos_tab = () => {
         <a
           href="https://youtu.be/9OcXZzhXUkY?si=82HHU1lP1m4fA7eV"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
           <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
             <img class="w-full" src={cb1} alt="HipHop Artist" />
@@ -215,7 +215,7 @@ const Videos_tab = () => {
         <a
           href="https://youtu.be/pb_gTSJZ5mM?si=T3Wf2JeQqRp2dvNc"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
           <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
             <img class="w-full" src={cb2} alt="HipHop Artist" />
@@ -232,7 +232,7 @@ const Videos_tab = () => {
         <a
           href="https://youtu.be/d__1UvrPt3Y?si=Nb_tZ87rh5O36Dm9"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
           <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
             <img class="w-full" src={cb3} alt="HipHop Artist" />
@@ -249,7 +249,7 @@ const Videos_tab = () => {
         <a
           href="https://youtu.be/dHTcz91TtJE?si=zUXTDSyu471f6ryr"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
           <div class="relative p-6 w-5/6 m-8 rounded overflow-hidden shadow-lg hover:bg-black text-white  ">
             <img class="w-full" src={cb4} alt="HipHop Artist" />
