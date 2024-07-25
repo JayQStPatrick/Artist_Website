@@ -1,15 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./navbar";
 import { FaChevronRight } from "react-icons/fa6";
-import Pac from "../media/Pac.png";
-import SantanDave from "../media/SantanDave.png";
-import SnoopDogg from "../media/SnoopDogg.png";
 import JayQ2 from "../media/JayQ2.jpeg";
 import TBFKD from "../media/TBFKDcover.jpg";
 import corporate from "../media/CorporateCover.jpeg";
 import ontop from "../media/OntopCover.png";
-import jara from "../media/JaraCover.png";
-import myshoulder from "../media/MyshoulderCover.png";
 import lemonpepper from "../media/LemonPepperCover.png";
 import cb1 from "../media/cb1.jpeg";
 import cb2 from "../media/cb2.jpeg";

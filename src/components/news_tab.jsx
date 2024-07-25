@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../navbar.css";
 import Navbar from "./navbar";
-import Meek from "../media/meek.png";
 import TBFKD from "../media/TBFKDcover.jpg";
 import corporate from "../media/CorporateCover.jpeg";
 import ontop from "../media/OntopCover.png";
