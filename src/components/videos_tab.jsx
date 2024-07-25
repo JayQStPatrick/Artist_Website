@@ -3,7 +3,6 @@ import Navbar from "./navbar";
 import { FaChevronRight } from "react-icons/fa6";
 import JayQ2 from "../media/JayQ2.jpeg";
 import TBFKD from "../media/TBFKDcover.jpg";
-import corporate from "../media/CorporateCover.jpeg";
 import ontop from "../media/OntopCover.png";
 import lemonpepper from "../media/LemonPepperCover.png";
 import cb1 from "../media/cb1.jpeg";
