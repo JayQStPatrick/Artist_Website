@@ -11,6 +11,7 @@ import ontop from "../media/OntopCover.png";
 import jara from "../media/JaraCover.png";
 import myshoulder from "../media/MyshoulderCover.png";
 import lemonpepper from "../media/LemonPepperCover.png";
+import { NextArrow, PrevArrow } from "./customarrows";
 
 // Creating usestates
 const News_tab = () => {
@@ -34,23 +35,29 @@ const News_tab = () => {
   }, []);
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+  };
+
+  const handleDownload = () => {
+    window.location.href = "http://localhost:5000/download";
   };
 
   return (
     <div className="">
       <Navbar hasBackground={hasBackground} />
-      <div className="h-1/2">
+      <div className="">
         <Slider {...settings}>
           <div>
             <video
-              src="/Videos/Clip3.mp4"
+              src="/Videos/Clip1.mp4"
               type="mp4"
               autoPlay
               loop
@@ -60,7 +67,7 @@ const News_tab = () => {
           </div>
           <div>
             <video
-              src="/Videos/Clip3.mp4"
+              src="/Videos/Clip2.mp4"
               type="mp4"
               autoPlay
               loop
@@ -94,9 +101,12 @@ const News_tab = () => {
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <a className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl">
+            <button
+              onClick={handleDownload}
+              className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+            >
               Download
-            </a>
+            </button>
           </div>
         </div>
         <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">

@@ -63,14 +63,14 @@ const Footer = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink
+                {/* <NavLink
                   exact
                   activeClassName="active"
                   to="/contact"
                   className="text-white"
                 >
                   Contact
-                </NavLink>
+                </NavLink> */}
               </li>
             </ul>
             <div>
