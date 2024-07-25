@@ -36,9 +36,9 @@ const Videos_tab = () => {
     };
   }, []);
 
-  const redirect = (url) => {
-    window.open = ("url", "_blank", "noopener,noreferrer");
-  };
+  // const redirect = (url) => {
+  //   window.open = ("url", "_blank", "noopener,noreferrer");
+  // };
   return (
     <div className="bg-bgblue">
       <Navbar hasBackground={hasBackground} />

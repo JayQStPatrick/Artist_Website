@@ -1,9 +1,7 @@
 import React, { useState, useContext } from "react";
 import { MyContext } from "../../Mycontext";
-import Footer from "../footer";
 
 const Subscribe = () => {
-  const { future } = useContext(MyContext);
   const [firstName, setFirstName] = useState("");
   const [lastname, setLastname] = useState("");
   const [email, setEmail] = useState("");
