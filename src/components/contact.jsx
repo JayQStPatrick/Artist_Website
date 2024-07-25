@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./navbar";
 import { FaChevronRight } from "react-icons/fa6";
-import ChrisBrown from "../media/ChrisBrown.png";
+// import ChrisBrown from "../media/ChrisBrown.png";
 import Pac from "../media/Pac.png";
-import SantanDave from "../media/SantanDave.png";
-import SnoopDogg from "../media/SnoopDogg.png";
+// import SantanDave from "../media/SantanDave.png";
+// import SnoopDogg from "../media/SnoopDogg.png";
 
 // Creating usestates
 const Contact = () => {

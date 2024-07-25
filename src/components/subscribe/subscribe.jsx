@@ -1,5 +1,4 @@
 import React, { useState, useContext } from "react";
-import { MyContext } from "../../Mycontext";
 
 const Subscribe = () => {
   const [firstName, setFirstName] = useState("");

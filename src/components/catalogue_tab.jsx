@@ -80,6 +80,7 @@ const Catalogue_tab = () => {
                     <a
                       href="https://audiomack.com/jayq_sounds/song/ontop"
                       target="_blank"
+                      rel="noreferrer"
                       className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
                     >
                       PLAY
@@ -109,6 +110,7 @@ const Catalogue_tab = () => {
                     <a
                       href="https://audiomack.com/jayq_sounds/song/corporate"
                       target="_blank"
+                      rel="noreferrer"
                       className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
                     >
                       PLAY
@@ -135,6 +137,7 @@ const Catalogue_tab = () => {
                     <a
                       href="https://audiomack.com/jayq_sounds/song/jara"
                       target="_blank"
+                      rel="noreferrer"
                       className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
                     >
                       PLAY
@@ -168,6 +171,7 @@ const Catalogue_tab = () => {
                     <a
                       href="https://audiomack.com/jayq_sounds/song/yeb-my-shoulder"
                       target="_blank"
+                      rel="noreferrer"
                       className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
                     >
                       PLAY
@@ -198,6 +202,7 @@ const Catalogue_tab = () => {
                     <a
                       href="https://audiomack.com/jayq_sounds/song/lemon-pepper-freestyle"
                       target="_blank"
+                      rel="noreferrer"
                       className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
                     >
                       PLAY
@@ -231,6 +236,7 @@ const Catalogue_tab = () => {
                     <a
                       href="https://audiomack.com/jayq_sounds/song/crownofclaycover"
                       target="_blank"
+                      rel="noreferrer"
                       className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
                     >
                       PLAY
@@ -257,6 +263,7 @@ const Catalogue_tab = () => {
                     <a
                       href="https://audiomack.com/jayq_sounds/song/lemme-know-cover"
                       target="_blank"
+                      rel="noreferrer"
                       className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
                     >
                       PLAY

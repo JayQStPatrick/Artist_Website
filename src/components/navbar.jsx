@@ -5,11 +5,8 @@ import { FaMagnifyingGlass } from "react-icons/fa6";
 import { FaBars } from "react-icons/fa6";
 import { FaTimes } from "react-icons/fa";
 import "../navbar.css";
-import Catalogue from "../components/catalogue_tab";
-import Events from "../components/events_tab";
-import Merch from "../components/merch_tab";
-import News from "../components/news_tab";
-import Videos from "../components/videos_tab";
+// import News from "../components/news_tab";
+// import Videos from "../components/videos_tab";
 
 const Navbar = ({ hasBackground }) => {
   const [click, setClick] = useState(false);
