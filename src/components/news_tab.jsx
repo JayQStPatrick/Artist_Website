@@ -100,12 +100,12 @@ const News_tab = () => {
             </p>
           </div>
           <div class="px-6 pt-4 pb-2 text-center">
-            <button
+            <a
               onClick={handleDownload}
-              className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+              className="bg-mainblue hover:bg-solidblack p-3 text-white text-lg lg:w-3/4 md:w-full rounded-2xl"
             >
               Download
-            </button>
+            </a>
           </div>
         </div>
         <div class="mx-auto w-1/2 md:w-1/4 lg:w-1/3 mt-8 p-4 rounded overflow-hidden shadow-lg hover:bg-hoverblue">
@@ -124,7 +124,7 @@ const News_tab = () => {
               href="https://audiomack.com/jayq_sounds/song/corporate"
               target="_blank"
               rel="noreferrer"
-              className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+              className="bg-mainblue hover:bg-solidblack text-white rounded-2xl text-lg p-3 lg:w-3/4 md:w-full"
             >
               PLAY
             </a>
@@ -146,7 +146,7 @@ const News_tab = () => {
               href="https://audiomack.com/jayq_sounds/song/ontop"
               target="_blank"
               rel="noreferrer"
-              className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+              className="bg-mainblue hover:bg-solidblack p-3 text-white text-lg lg:w-3/4 md:w-full rounded-2xl"
             >
               PLAY
             </a>
@@ -171,7 +171,7 @@ const News_tab = () => {
               href="https://audiomack.com/jayq_sounds/song/jara"
               target="_blank"
               rel="noreferrer"
-              className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+              className="bg-mainblue hover:bg-solidblack p-3 text-white text-lg lg:w-3/4 md:w-full rounded-2xl"
             >
               PLAY
             </a>
@@ -194,7 +194,7 @@ const News_tab = () => {
               href="https://audiomack.com/jayq_sounds/song/yeb-my-shoulder"
               target="_blank"
               rel="noreferrer"
-              className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+              className="bg-mainblue hover:bg-solidblack p-3 text-white text-lg lg:w-3/4 md:w-full rounded-2xl"
             >
               PLAY
             </a>
@@ -217,7 +217,7 @@ const News_tab = () => {
               href="https://audiomack.com/jayq_sounds/song/lemon-pepper-freestyle"
               target="_blank"
               rel="noreferrer"
-              className="bg-mainblue hover:bg-solidblack p-1 text-white text-lg w-1/4 rounded-2xl"
+              className="bg-mainblue hover:bg-solidblack p-3 text-white text-lg lg:w-3/4 md:w-full rounded-2xl"
             >
               PLAY
             </a>
